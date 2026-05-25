@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MQuiz - Question 1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h2>Question 1 of 2</h2>
+    <div class="question">What is 2+4</div>
+    <button class="answer-button" onclick="answerQuestion(1, 'A')">
+      A. 24
+    </button>
+    <button class="answer-button" onclick="answerQuestion(1, 'B')">
+      B. 42
+    </button>
+    <button class="answer-button" onclick="answerQuestion(1, 'C')">
+      C. 6
+    </button>
+    <button class="answer-button" onclick="answerQuestion(1, 'D')">
+      D. 2
+    </button>
+
+    <div id="feedback"></div>
+    <div id="nextArea" style="display:none;">
+      <a class="nav-button" href="question2.html">Next</a>
+    </div>
+
+  </main>
+  <script src="quiz-data.js"></script>
+  <script src="quiz.js"></script>
+</body>
+</html>

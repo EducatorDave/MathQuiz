@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MQuiz - Results</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Quiz Complete!</h1>
+    <h2>Your score:</h2>
+    <h1 id="score">Calculating...</h1>
+    <a id="downloadSummary" class="nav-button" style="display:none;">Download Summary TXT File</a>
+    <div id="summaryText"></div>
+    <a class="nav-button" href="index.html" onclick="resetQuiz()">Take Quiz Again</a>
+
+  </main>
+  <script src="quiz-data.js"></script>
+  <script src="quiz.js"></script>
+  <script>showFinalScore();</script>
+</body>
+</html>
